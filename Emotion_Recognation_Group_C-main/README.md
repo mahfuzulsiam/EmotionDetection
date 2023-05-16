@@ -1,3 +1,1 @@
-# Emotion_Detection_CNN
-
-Data Set Link - https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+this is emotion recognition Python code that can detect your face and your emotion
