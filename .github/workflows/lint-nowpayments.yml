@@ -1,0 +1,11 @@
+name: Lint NOWPayments Installer
+on:
+  push:
+    branches: [chatgpt-artifact-nowpayments-v1]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP syntax check
+        run: php -l mas-global-nowpayments-one-click-v1.0.0.php
